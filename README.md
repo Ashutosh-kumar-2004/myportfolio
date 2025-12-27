@@ -1,4 +1,4 @@
-# Personal Portfolio Website [View Live](https://ashutosh-kumar-2004.github.io/myportfolio/)
+# Personal Portfolio Website | [View Live](https://ashutosh-kumar-2004.github.io/myportfolio/)
 
 A modern, responsive, and interactive personal portfolio website built to showcase my skills, projects, and professional experience. Developed using **React**, **Tailwind CSS**, and **Vite**, featuring dynamic content, smooth animations, and a seamless user experience.
 
