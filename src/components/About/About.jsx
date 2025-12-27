@@ -41,11 +41,15 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a full-stack web developer specializing in the MERN stack. I build responsive, efficient, and user friendly web applications while continuously improving my problem-solving skills through Data Structures and Algorithms. I am always exploring new technologies to create scalable and modern solutions.
+            I am a full-stack web developer specializing in the MERN stack. I
+            build responsive, efficient, and user friendly web applications
+            while continuously improving my problem-solving skills through Data
+            Structures and Algorithms. I am always exploring new technologies to
+            create scalable and modern solutions.
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1VD8xqNSYyqFyk_NPz11IzzHobqcRUbyT/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/1l4rzJZ0ZM_55oPJR6Uo-Oi0EI8wQGwxG/view"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
