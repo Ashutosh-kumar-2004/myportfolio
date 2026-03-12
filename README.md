@@ -1,8 +1,8 @@
-# Personal Portfolio Website
+# Personal Portfolio Website | [View Live](https://ashutosh-kumar-2004.github.io/myportfolio/)
 
 A modern, responsive, and interactive personal portfolio website built to showcase my skills, projects, and professional experience. Developed using **React**, **Tailwind CSS**, and **Vite**, featuring dynamic content, smooth animations, and a seamless user experience.
 
-## 🚀 Features
+## Features
 
 - **Dynamic Content**: Sections for Skills, Experience, and Projects are fueled by a centralized `constants.js` file for easy updates.
 - **Responsive Design**: Fully responsive layout ensuring compatibility across Desktops, Tablets, and Mobile devices.
@@ -104,4 +104,4 @@ Feel free to reach out to me via the contact form on the website!
 
 ---
 
-**Made with ❤️ using React & Tailwind CSS.**
+

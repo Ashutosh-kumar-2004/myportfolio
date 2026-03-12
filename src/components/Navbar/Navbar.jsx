@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { BiLogoGmail  } from "react-icons/bi";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -33,12 +34,15 @@ const Navbar = () => {
     { id: "skills", label: "Skills" },
     { id: "work", label: "Projects" },
     { id: "education", label: "Education" },
+    { id: "certificate", label: "Certifications" },
   ];
 
   return (
     <nav
       className={`fixed top-0 w-full z-50 transition duration-300 px-[7vw] md:px-[7vw] lg:px-[20vw] ${
-        isScrolled ? "bg-[#050414] bg-opacity-50 backdrop-blur-md shadow-md" : "bg-transparent"
+        isScrolled
+          ? "bg-[#050414] bg-opacity-50 backdrop-blur-md shadow-md"
+          : "bg-transparent"
       }`}
     >
       <div className="text-white py-5 flex justify-between items-center">
@@ -86,6 +90,14 @@ const Navbar = () => {
             className="text-gray-300 hover:text-[#8245ec]"
           >
             <FaLinkedin size={24} />
+          </a>
+          <a
+            href="mailto:ashutoshyadav202004@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white hover:text-[#8245ec]"
+          >
+            <BiLogoGmail  size={24} />
           </a>
         </div>
 
@@ -137,6 +149,14 @@ const Navbar = () => {
                 className="text-gray-300 hover:text-white"
               >
                 <FaLinkedin size={24} />
+              </a>
+              <a
+                href="mailto:ashutoshyadav202004@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-300 hover:text-[#8245ec]"
+              >
+                <BiLogoGmail  size={24} />
               </a>
             </div>
           </ul>

@@ -39,9 +39,8 @@ import agcLogo from "./assets/company_logo/agc_logo.png";
 import newtonschoolLogo from "./assets/company_logo/newtonschool_logo.png";
 
 // Education Section Logo's
-import glaLogo from "./assets/education_logo/gla_logo.png";
-import bsaLogo from "./assets/education_logo/bsa_logo.png";
-import vpsLogo from "./assets/education_logo/vps_logo.png";
+import lpuLogo from "./assets/lpu.webp";
+import apsLogo from "./assets/aps.png";
 
 // Project Section Logo's
 import githubdetLogo from "./assets/work_logo/image.png";
@@ -180,16 +179,7 @@ export const projects = [
     github: "https://github.com/Ashutosh-kumar-2004/Linux-Command-Simulator",
     webapp: "https://ashutosh-kumar-2004.github.io/Linux-Command-Simulator/",
   },
-  // {
-  //   id: 2,
-  //   title: "Linux File System Simulator",
-  //   description:
-  //     "A powerful, web-based Linux terminal and file system simulator that brings the command-line experience to your browser. This project simulates a functional file system structure, allowing users to execute standard Linux commands, manage files, and navigate directories in a safe, virtual environment.",
-  //   image: movierecLogo,
-  //   tags: ["HTML", "CSS", "JavaScript"],
-  //   github: "https://github.com/Ashutosh-kumar-2004/Linux-Command-Simulator",
-  //   webapp: "https://ashutosh-kumar-2004.github.io/Linux-Command-Simulator/",
-  // },
+
   {
     id: 3,
     title: "Quick Chat",
@@ -217,5 +207,78 @@ export const projects = [
     image: webverLogo,
     tags: ["HTML", "JavaScript", "PHP", "MySQL", "Tailwind CSS"],
     github: "https://github.com/Ashutosh-kumar-2004/secure-file-access-system",
+  },
+];
+
+export const achievements = [
+  "Solved 500+ DSA problems across LeetCode, GFG and HackerRank",
+  "Built multiple full-stack MERN applications",
+  "Participated in coding contests and hackathons",
+  "Active GitHub contributor with consistent commits",
+];
+
+export const certificates = [
+  {
+    title: "Node.js (Basic)",
+    org: "HackerRank",
+    link: "https://www.hackerrank.com/certificates/64b299aa1228",
+    date: "Feb 2026",
+  },
+  {
+    title: "Build Generative AI Apps",
+    org: "Infosys Springboard",
+    link: "https://www.hackerrank.com/certificates/64b299aa1228",
+    date: "Aug 2025",
+  },
+  {
+    title: "Cloud Computing",
+    org: "NPTEL",
+    link: "https://drive.google.com/file/d/1cvbSFVD4JP1sDX_1461EaMnVKh_93ZoY/view",
+    date: "Jan 2025",
+  },
+  {
+    title: "Object Oriented Programming",
+    org: "IamNeo",
+    link: "https://lpucolab438.examly.io/certificate/U2FsdGVkX19o%2FPYdSoZS5OXCTWSRkkB3NFZfStKEQFg%3D",
+    date: "Aug 2024",
+  },
+  {
+    title: "Object Oriented Programming",
+    org: "IamNeo",
+    link: "https://lpucolab438.examly.io/certificate/U2FsdGVkX19o%2FPYdSoZS5OXCTWSRkkB3NFZfStKEQFg%3D",
+    date: "Aug 2024",
+  },
+];
+
+export const educationData = [
+  {
+    logo: lpuLogo,
+    institution: "Lovely Professional University",
+    location: "Jalandhar, Punjab",
+    degree: "Bachelors of Technology in Computer Science and Engineering",
+    duration: "August 2023 - Present",
+    percentage: "CGPA: 8.56 CGPA (Till Date)",
+    description:
+      "Pursuing B.Tech in Computer Science and Engineering, focusing on full-stack web development and modern frameworks like MERN. Actively involved in projects that emphasize performance, scalability, and clean UI/UX design.",
+  },
+  {
+    logo: apsLogo,
+    institution: "Army Public School, Nehru Road",
+    location: "Lucknow, Uttar Pradesh",
+    degree: "Senior Secondary (Class XII)",
+    duration: "April 2021 - March 2022",
+    percentage: "Percentage: 86.4%",
+    description:
+      "Completed higher secondary education in the science stream with a focus on Mathematics and Computer Science. Developed strong analytical and logical reasoning abilities.",
+  },
+  {
+    logo: apsLogo,
+    institution: "Army Public School, Nehru Road",
+    location: "Lucknow, Uttar Pradesh",
+    degree: "Secondary (Class X)",
+    duration: "April 2019 - March 2020",
+    percentage: "Percentage: 90%",
+    description:
+      "Completed foundational education with distinction, sparking an early interest in technology, computers, and logical problem solving.",
   },
 ];
