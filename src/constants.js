@@ -243,7 +243,7 @@ export const certificates = [
     date: "Aug 2024",
   },
   {
-    title: "Object Oriented Programming",
+    title: "Java",
     org: "IamNeo",
     link: "https://lpucolab438.examly.io/certificate/U2FsdGVkX19o%2FPYdSoZS5OXCTWSRkkB3NFZfStKEQFg%3D",
     date: "Aug 2024",
