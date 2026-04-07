@@ -42,9 +42,11 @@ import newtonschoolLogo from "./assets/company_logo/newtonschool_logo.png";
 import lpuLogo from "./assets/lpu.webp";
 import apsLogo from "./assets/aps.png";
 
-// Project Section Logo's
-import githubdetLogo from "./assets/work_logo/image.png";
+// Project Section Logo's  resumeMatcherLogo
 import csprepLogo from "./assets/work_logo/image copy.png";
+import resumeMatcherLogo from "./assets/work_logo/1.png";
+import githubdetLogo from "./assets/work_logo/image.png";
+import uberLabourLogo from "./assets/image.png";
 import movierecLogo from "./assets/work_logo/movie_rec.png";
 import taskremLogo from "./assets/work_logo/image copy 3.png";
 import npmLogo from "./assets/work_logo/image copy 2.png";
@@ -150,6 +152,27 @@ export const experiences = [
 
 export const projects = [
   {
+  id: 7,
+  title: "Uber Labour",
+  description:
+    "Uber Labour is a full-stack MERN-based on-demand labor marketplace that enables task posting, worker discovery, and end-to-end task lifecycle management with real-time updates. It features live location tracking using Socket.IO, OTP-based arrival verification, and secure task assignment logic. The platform includes JWT authentication, MongoDB geospatial indexing, Cloudinary media handling, and a robust notification system with worker verification, penalties, and task expiry.",
+  image: uberLabourLogo, 
+  tags: [
+    "React JS",
+    "Express JS",
+    "MongoDB",
+    "Redux",
+    "Socket.IO",
+    "JWT",
+    "Cloudinary",
+    "Nodemailer",
+    "React-Leaflet",
+  ],
+  github: "https://github.com/Ashutosh-kumar-2004/Uber-Labour",
+  webapp: "https://uber-labour.vercel.app/",
+},
+
+  {
     id: 0,
     title: "Productivity Tracker",
     description:
@@ -169,6 +192,24 @@ export const projects = [
       "https://github.com/Ashutosh-kumar-2004/Time-Analysis-and-Productivity",
     webapp: "https://productivity-tracker-aky.vercel.app/",
   },
+  {
+  id: 8,
+  title: "Resume Matcher AI",
+  description:
+    "Resume Matcher AI is an AI-driven platform that automates resume evaluation, matches candidates with job descriptions, and provides structured, context-aware feedback for iterative resume optimization. It integrates LLM-based analysis (Groq API) with PDF parsing and prompt engineering to deliver intelligent insights. The platform also features a chat-based system with persistent sessions and real-time analysis, reducing manual review effort and enabling faster resume improvement.",
+  image: resumeMatcherLogo, 
+  tags: [
+    "React JS",
+    "Express JS",
+    "MongoDB",
+    "JWT",
+    "Groq API",
+    "LLM",
+    "PDF Parsing",
+  ],
+  github: "https://github.com/Ashutosh-kumar-2004/Resume-Matcher-AI",
+  webapp: "https://resume-matcher-ai-black.vercel.app/",
+},
   {
     id: 1,
     title: "Linux File System Simulator",
@@ -212,12 +253,18 @@ export const projects = [
 
 export const achievements = [
   "Solved 500+ DSA problems across LeetCode, GFG and HackerRank",
-  "Built multiple full-stack MERN applications",
+  "Earned 5 stars on HackerRank for C++ and Java",
   "Participated in coding contests and hackathons",
   "Active GitHub contributor with consistent commits",
 ];
 
 export const certificates = [
+  {
+    title: "React.js (Basic)",
+    org: "HackerRank",
+    link: "https://www.hackerrank.com/certificates/d892a34f181f",
+    date: "Mar 2026",
+  },
   {
     title: "Node.js (Basic)",
     org: "HackerRank",
@@ -225,28 +272,28 @@ export const certificates = [
     date: "Feb 2026",
   },
   {
-    title: "Build Generative AI Apps",
-    org: "Infosys Springboard",
-    link: "https://www.hackerrank.com/certificates/64b299aa1228",
-    date: "Aug 2025",
-  },
-  {
     title: "Cloud Computing",
     org: "NPTEL",
     link: "https://drive.google.com/file/d/1cvbSFVD4JP1sDX_1461EaMnVKh_93ZoY/view",
-    date: "Jan 2025",
+    date: "May 2025",
   },
   {
     title: "Object Oriented Programming",
     org: "IamNeo",
     link: "https://lpucolab438.examly.io/certificate/U2FsdGVkX19o%2FPYdSoZS5OXCTWSRkkB3NFZfStKEQFg%3D",
-    date: "Aug 2024",
+    date: "Dec 2024",
   },
   {
-    title: "Java",
-    org: "IamNeo",
-    link: "https://lpucolab438.examly.io/certificate/U2FsdGVkX19o%2FPYdSoZS5OXCTWSRkkB3NFZfStKEQFg%3D",
-    date: "Aug 2024",
+    title: "Fundamentals of Network Communication",
+    org: "University of Colorado",
+    link: "https://www.coursera.org/account/accomplishments/certificate/WU6NC0GYKBY8",
+    date: "Oct 2024",
+  },
+  {
+    title: "Introduction to Hardware and Operating System",
+    org: "Coursera",
+    link: "https://www.coursera.org/account/accomplishments/verify/ESW1QARX7N12",
+    date: "Oct 2024",
   },
 ];
 
